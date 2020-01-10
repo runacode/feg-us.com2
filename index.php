@@ -76,7 +76,7 @@ include_once(dirname(__FILE__) . '/locale/languages.php');
     <div class="row main-product-block">
         <div class='col-lg-7'>
             <div class='ktemplate_userCopy'>
-                <img class="img-fluid" src="https://picsum.photos/640/640"/>
+                <img class="img-fluid" src="<?php echo $product->imgsafe ?>"/>
             </div>
         </div>
         <div class="col-lg-5 right-product-block">
